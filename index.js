@@ -12,7 +12,7 @@ app.use(express.json());
 
 const io = new Server(server, {
     cors: {
-        origin: "https://leoteleport.herokuapp.com",
+        origin: "https://leoteleport.onrender.com",
         methods: ["GET", "POST", "DELETE"],
     },
 });
